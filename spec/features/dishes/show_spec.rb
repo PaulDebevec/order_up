@@ -51,6 +51,10 @@ describe "Dish Show Page" do
       dish_2.ingredients << ingredient_3
 
       visit "/dishes/#{dish_1.id}"
+      expect(page).to have_content("Dish Total Calories: 97")
+
+      visit "/dishes/#{dish_2.id}"
+      expect(page).to have_content("Dish Total Calories: 104")
     end
   end
 end
