@@ -1,9 +1,3 @@
-# Story 1 of 3
-# As a visitor
-# When I visit a dish's show page
-# I see the name of the chef that made that dish
-# And I see a list of ingredients for that dish
-
 require 'rails_helper'
 
 describe "Dish Show Page" do
