@@ -54,7 +54,7 @@ describe "Dish Show Page" do
       expect(page).to have_content("Dish Total Calories: 97")
 
       visit "/dishes/#{dish_2.id}"
-      expect(page).to have_content("Dish Total Calories: 104")
+      expect(page).to have_content("Dish Total Calories: 102")
     end
   end
 end

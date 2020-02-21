@@ -25,7 +25,7 @@ RSpec.describe Dish, type: :model do
       dish_1.ingredients << ingredient_2
       dish_1.ingredients << ingredient_3
 
-      expect(dish_2.total_calorie_count).to eq(97)
+      expect(dish_1.total_calorie_count).to eq(97)
     end
   end
 end
